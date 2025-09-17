@@ -5,13 +5,10 @@ public class Main {
 
         System.out.println("Welcome To Shapes In OOP!");
 
-//        Circle circle = new Circle(2);
-
-//        Rectangle rectangle = new Rectangle(4, 5);
-
-        Triangle triangle = new Triangle(3 ,4);
-
-        System.out.printf("The area of the circle is: %.2f cm²\n" , triangle.area());
+        System.out.println("Pick a shape and find its area:");
+        System.out.println("1. Circle");
+        System.out.println("2. Rectangle");
+        System.out.println("3. Triangle");
 
     }
 }
