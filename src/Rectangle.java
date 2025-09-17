@@ -9,7 +9,7 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    public double area() {
+    public double calculateArea() {
         return length * width;
     }
 }

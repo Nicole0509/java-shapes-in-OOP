@@ -22,7 +22,7 @@ public class Main {
                 double radius = scanner.nextDouble();
                 Circle circle = new Circle(radius);
 
-                System.out.printf("The area of the circle is %.2f cm²" , circle.area());
+                System.out.printf("The area of the circle is %.2f cm²" , circle.calculateArea());
                 break;
             case 2: 
                 System.out.print("Enter the width of a rectangle in cm: ");
@@ -31,7 +31,7 @@ public class Main {
                 double length = scanner.nextDouble();
 
                 Rectangle rectangle = new Rectangle(width, length);
-                System.out.printf("The area of the rectangle is %.2f cm²" , rectangle.area());
+                System.out.printf("The area of the rectangle is %.2f cm²" , rectangle.calculateArea());
                 break;
             case 3: 
                 System.out.print("Enter the base of a triangle in cm: ");
@@ -40,7 +40,7 @@ public class Main {
                 double height = scanner.nextDouble();
 
                 Triangle triangle = new Triangle(base, height);
-                System.out.printf("The area of the rectangle is %.2f cm²" , triangle.area());
+                System.out.printf("The area of the rectangle is %.2f cm²" , triangle.calculateArea());
                 break;
             default: 
                 System.out.println("Invalid choice");
