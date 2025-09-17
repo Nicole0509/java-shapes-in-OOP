@@ -5,5 +5,11 @@ public class Main {
 
         System.out.println("Welcome To Shapes In OOP!");
 
+        Circle circle = new Circle(2);
+
+        Rectangle rectangle = new Rectangle(4, 5);
+
+        System.out.printf("The area of the circle is: %.2f cm²\n" , rectangle.area());
+
     }
 }
